@@ -1,3 +1,104 @@
-.fa-html5:before {
-    content: "\F031D";
+body {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    flex-direction: column;
+    color: #e8e6e3;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+html, body {
+    background-color: #181a1b;
+}
+
+/*********HEADER***********/
+header {
+    display: flex;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-content: space-between;    
+}
+
+li{
+    padding-left: 1em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #e8e6e3;
+}
+
+/*********ABOUT***************/
+#about{
+    display: flex;
+}
+.about-text{
+    padding-right: 50px;
+}
+.profile-pic {
+    flex-shrink: 0;
+    width: 25%;
+    border-radius: 15%;
+    margin-left: auto;
+}
+
+/*********EXPERIENCE************/
+.experience-content {
+    margin-left: 20px;
+}
+
+.experienceTitle:before {
+    display: inline-block;
+    content: "\2794";
+}
+
+.experience-content img {
+    width: 75%;
+}
+
+/************SKILLS************/
+#skills {
+    margin-top: 50px;
+}
+.skill-logos {
+    display: flex;
+    justify-content: space-between;
+}
+.skill-logos img {
+    filter: invert(100%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    width: 10%
+}
+
+/************SKILLS************/
+#contact {
+    margin-top: 50px;
+}
+.contact-logos {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-logos img {
+    filter: invert(100%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    
+}
+
+.contact-logos a:hover {
+    filter:drop-shadow(10px 10px black);
+}
+
+/***********FOOTER*************/
+footer {
+    margin: 0 auto;
+    margin-top: 50px;
 }
